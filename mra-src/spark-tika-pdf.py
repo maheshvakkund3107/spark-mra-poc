@@ -13,7 +13,7 @@ if __name__ == '__main__':
     # Spark Object Initialization
     sparkSession = SparkSession. \
         builder. \
-        appName("BroadCast Join"). \
+        appName("Spark-Tika-Pdf"). \
         master("local[*]"). \
         getOrCreate()
 
